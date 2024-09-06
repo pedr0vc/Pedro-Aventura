@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca do tesouro perdido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <header>Em Busca do tesouro perdido</header>
+            <img src="img/sala.jpeg" alt="Inicio da Jornada">
+            <p>Um dia desses, dentro de um livro na Sala de Leitura da escola, eu descobri uma carta antiga sobre um tesouro perdido, escondido por riquezas e belezas naturais. Nessa carta, a autora deixa algumas pistas para encontrar esse tesouro e eu decidi segui-las!</p>
+            <button class="btn-proximo" data-proximo="1">Barra Bonita</button>
+            <button class="btn-proximo" data-proximo="2">Bauru</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/bb.jpg" alt="Chegamos em Barra Bonita">
+            <p>Você começa sua jornada em Barra Bonita, descendo a avenida Pedro Ometto, em direção ao Deck, ao amanhecer para encontrar a primeira pista.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista no Deck</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para a escola</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="img/bauru.jpg" alt="Em Bauru">
+            <p>Em Bauru, você visita a cidade sem limites. Na carta, uma das pistas indica que para localizar o tesouro perdido você deve procurar a próxima pista em um dos pontos turísticos da cidade. Por qual você começa?</p>
+            <button class="btn-proximo" data-proximo="5">Investigar o Jardim Botânico Municipal</button>
+            <button class="btn-proximo" data-proximo="6">Explorar o Zoológoco</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <img src="img/deck.jpg" alt="Chegando no Deck">
+            <p>Ao chegar ao Deck, você encontra uma antiga inscrição apontando que a próxima pista está
+                localizada na rodovia BRB-010, próxima a USINA BARRA S/A.</p>
+                <button class="btn-proximo" data-proximo="7">Seguir para a Rodovia</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/esco.jpg" alt="O retorno para a escola">
+            <p>Você decide que a aventura é grande demais e volta para a Escola, retomar seus estudos, mas sempre se pergunta o que teria
+                encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="img/images.jpg" alt="No Jardim Botânico">
+            <p>No Jardim Botânico Municipal de Bauru, você descobre um mapa antigo escondido, apontando que a próxima
+                pista na rodovia BRB-010, próxima a USINA BARRA S/A.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para a Rodovia</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="img/zz.jpg" alt="No Zoológoco">
+            <p>Explorando o Zoológoco você  não encontra nada </p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar o Jardim</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="img/caminho.jpg" alt="Dificil escolha">
+            <p>Na Rodovia BRB-010, a busca pela cidade perdida se intensifica. Você se depara com um caminho bifurcado.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo caminho a frente</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo caminho à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="img/images.jpg" alt="NO Deck">
+            <p>De volta para o Jardim, você finalmente encontra o mapa antigo. Agora, para a Rodovia!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Rodovia</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="img/cami teso.webp" alt="Caminho para o tesouro">
+            <p>No caminho à frente leva você a uma bela estrada com inscrições antigas que revelam o caminho para o tesouto.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o lugar</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="img/caminho.jpg" alt="Inicio da Jornada">
+            <p>O caminho à direita segui por uma estrada cheia de pedras. Apesar de belas vistas, não há sinais do tesouro
+                aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro caminho</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/teso.jpg" alt="Encontrou o tesouro">
+            <p>No outro caminho, você encontra uma cachoeira com tesouros inimagináveis e decide pegar tudo para você e fugir </p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <img src="img/cami teso.webp" alt="Inicio da Jornada">
+            <p>Retornando e escolhendo o caminho à frente, você finalmente encontra o tesouro perdido escondida e as inscrições
+                que levam à tesouro.</p>
+            <button class="btn-proximo" data-proximo="11">Pocurar o tesouro</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
